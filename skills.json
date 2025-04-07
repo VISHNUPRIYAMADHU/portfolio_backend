@@ -1,0 +1,27 @@
+{
+    "skills": {
+      "primary": [
+        "FullStack Developer", "Backend Developer", "Frontend Developer", "Software Developer",
+        "Node.js", "ReactJS", "AngularJS", "AI", "IoT", "Python",
+        "JavaScript", "GraphQL", "TypeScript", "Docker", "MongoDB",
+        "SQL", "AWS", "HapiJS", "ExpressJS", "NestJS", "RESTful API",
+        "HTML", "CSS", "Bootstrap", "PostgreSQL", "MySQL",
+        "Amazon DynamoDB", "SQLite", "Bitbucket", "Git", "Postman",
+        "Swagger", "JIRA", "X-RAY", "Visual Studio Code", "AWS Services",
+        "NPM", "SonarQube", "Jenkins", "Splunk", "PuTTY", "OKTA",
+        "Jitterbit", "VMWare", "WinSCP", "AWS CLI", "Java", "Kotlin",
+        "Spring Framework", "Hibernate", "Kubernetes", "Gradle",
+        "Vue.js", "Junit", "Web Services", "AWS IoT Core", "AWS Lambda",
+        "Jest", "LUIS", "AWS EC2", "AWS IAM", "Microsoft Bot Framework",
+        "AWS API Gateway", "GitLab", "OpenAPI", "Microsoft Azure",
+        "Helm", "Microservices", "FoxPro", "MongoDB Compass", "Oracle",
+        "Maven","Nodejs/Javascript/Typescript", "Reactjs/Angularjs", "Java/SpringBoot", "Python", "Vue.js",
+        "MySQL", "PostgreSQL", "MongoDB", "DynamoDB", "Oracle", "SQLite",
+        "AWS", "Azure", "Google Cloud", "IBM Cloud"
+      ],
+      "secondary": [
+        ".NET", "PHP", "C", "C++"
+      ]
+    }
+  }
+  
