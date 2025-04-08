@@ -15,21 +15,11 @@ const skillsData = JSON.parse(fs.readFileSync('skills.json', 'utf8'));
 
 // Calculate match score based on user responses
 const calculateMatchScore = (responses) => {
+  console.log("inside calculateMatchScore");
+
   let score = 0;
 
-  // Function to get score for a single option (for questions 1, 2, 4, and 5)
-  const getOptionScore = (option) => {
-    const optionLower = option.toLowerCase();
-    // Check if the option matches primary skills
-    if (skillsData.skills.primary.some(skill => skill.toLowerCase().includes(optionLower))) {
-      return 10;  // 10 points for primary skill match
-    }
-    // Check if the option matches secondary skills
-    else if (skillsData.skills.secondary.some(skill => skill.toLowerCase().includes(optionLower))) {
-      return 5;  // 5 points for secondary skill match
-    }
-    return 0;  // No match
-  };
+
 
   // Check for question 3 (Experience required) - Max score 20
   const experienceResponse = responses[2];  // Question 3 is at index 2
@@ -47,11 +37,13 @@ const calculateMatchScore = (responses) => {
 
   // Loop through the other responses and calculate score for each option - Max score 60
   responses.forEach((response, index) => {
+    console.log("argument received initially",response);
+
     // Skip question 3 and 6 as they have custom scoring logic
     if (index === 2 || index === 5) return;
 
     if (!response.includes('Something else')) {
-      console.log("Found 'Something else' in the array");
+      console.log("Not found 'Something else' in the array");
       individualScores+=20
       return
   }
